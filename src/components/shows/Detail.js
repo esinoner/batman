@@ -71,13 +71,9 @@ export default ({match,shows:{show,score}})=>
 
 <div className="detail-item">
 <div className="item-header">Weight</div>
-<div className="item-data">Avarage:{show.weight}</div>
+<div className="item-data">{show.weight}</div>
 </div>
 
-<div className="detail-item">
-<div className="item-header">Web Channel</div>
-<div className="item-data">{show.webChannel}</div>
-</div>
 
 <div className="detail-item">
 <div className="item-header">Links</div>
